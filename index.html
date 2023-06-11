@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacts</title>
+    <link rel="stylesheet" href="./main.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/icons/contact book.webp"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <h1>Contact Book</h1>
+
+        <div id="contact-list" class="contactList"></div>
+
+        <form id="contact-form" class="create">
+          <input type="text" id="name" class="input" placeholder="Name" />
+          <input type="text" id="phone" class="input" placeholder="Phone" />
+          <input type="text" id="image" class="input" placeholder="Image URL" />
+          <button type="submit" class="button">Add Contact</button>
+        </form>
+        <button id="change-color-button" class="button">Change Color</button>
+
+        <form id="edit-contact-form" class="create" style="display: none">
+          <input type="text" id="edit-name" class="input" placeholder="Name" />
+          <input
+            type="text"
+            id="edit-phone"
+            class="input"
+            placeholder="Phone"
+          />
+          <input
+            type="text"
+            id="edit-image"
+            class="input"
+            placeholder="Image URL"
+          />
+          <button type="submit" class="button">Save Changes</button>
+          <button type="button" id="cancel-edit" class="button">Cancel</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="madeBy">Made by ALIKHAN</div>
+
+    <div class="urls">
+      <p class="p_avatars">Urls for picture Male/female/🌈:</p>
+
+      <ol class="p_avatars2">
+        <li>Male: assets/images/avatar1.png</li>
+        <li>Female: assets/images/avatar2.png</li>
+        <li>🌈: assets/images/avatar3.png</li>
+      </ol>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
