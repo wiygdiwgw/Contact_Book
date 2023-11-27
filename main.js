@@ -153,7 +153,7 @@ renderContactList();
 const changeColorButton = document.getElementById("change-color-button");
 
 function changeBackgroundColor() {
-  const randomColor = Math.floor(Math.random() * 16777215).toString(16);
+  const randomColor = Math.floor(Math.random() * 16777214).toString(16);
   document.body.style.backgroundColor = "#" + randomColor;
 }
 
